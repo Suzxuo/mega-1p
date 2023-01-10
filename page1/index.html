@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mega Store</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <section class="autho">
+        <button class="close"></button>
+        <h1 class="autho_title">Авторизация</h1>
+        <p class="autho_subtitle">Введите номер телефона</p>
+        <form>
+            <input class="autho_in" type="number" pattern="/^-?\d+\.?\d*$/" onKeyPress="if(this.value.length==12) return false;" placeholder="+996 555 000 000">
+            <button type="button" class="next" href="#" onclick="location.reload(); return false;">Далее</button>
+        </form>
+    </section>
+</body>
+</html> 
